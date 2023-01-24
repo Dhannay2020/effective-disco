@@ -73,6 +73,21 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\CPurchaseOrder.vb" />
+    <Compile Include="Classes\CSeason.vb" />
+    <Compile Include="Classes\CShop.vb" />
+    <Compile Include="Classes\CShopAdjustment.vb" />
+    <Compile Include="Classes\CShopDelivery.vb" />
+    <Compile Include="Classes\CShopReturn.vb" />
+    <Compile Include="Classes\CShopSale.vb" />
+    <Compile Include="Classes\CShopTransfer.vb" />
+    <Compile Include="Classes\CStock.vb" />
+    <Compile Include="Classes\CSupplier.vb" />
+    <Compile Include="Classes\CUtility.vb" />
+    <Compile Include="Classes\CWarehouse.vb" />
+    <Compile Include="Classes\CWarehouseAdjustment.vb" />
+    <Compile Include="Classes\CWarehouseReturn.vb" />
+    <Compile Include="Classes\CWarehouseTransfer.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
