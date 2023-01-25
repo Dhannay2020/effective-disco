@@ -74,6 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\CPurchaseOrder.vb" />
+    <Compile Include="Classes\CReport.vb" />
     <Compile Include="Classes\CSeason.vb" />
     <Compile Include="Classes\CShop.vb" />
     <Compile Include="Classes\CShopAdjustment.vb" />
@@ -83,11 +84,24 @@
     <Compile Include="Classes\CShopTransfer.vb" />
     <Compile Include="Classes\CStock.vb" />
     <Compile Include="Classes\CSupplier.vb" />
+    <Compile Include="Classes\CSystemLog.vb" />
     <Compile Include="Classes\CUtility.vb" />
     <Compile Include="Classes\CWarehouse.vb" />
     <Compile Include="Classes\CWarehouseAdjustment.vb" />
     <Compile Include="Classes\CWarehouseReturn.vb" />
     <Compile Include="Classes\CWarehouseTransfer.vb" />
+    <Compile Include="FDataGridView.Designer.vb">
+      <DependentUpon>FDataGridView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FDataGridView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMainInterface.Designer.vb">
+      <DependentUpon>FMainInterface.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FMainInterface.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -95,10 +109,95 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FPurchaseOrder.Designer.vb">
+      <DependentUpon>FPurchaseOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FPurchaseOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FReportCriteria.Designer.vb">
+      <DependentUpon>FReportCriteria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FReportCriteria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FReportViewer.Designer.vb">
+      <DependentUpon>FReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShop.Designer.vb">
+      <DependentUpon>FShop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FShop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShopAdjustment.Designer.vb">
+      <DependentUpon>FShopAdjustment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FShopAdjustment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShopDelivery.Designer.vb">
+      <DependentUpon>FShopDelivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FShopDelivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShopReturn.Designer.vb">
+      <DependentUpon>FShopReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FShopReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShopSale.Designer.vb">
+      <DependentUpon>FShopSale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FShopSale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FShopTransfer.Designer.vb">
+      <DependentUpon>FShopTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FShopTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSupplier.Designer.vb">
+      <DependentUpon>FSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FWarehouse.Designer.vb">
+      <DependentUpon>FWarehouse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FWarehouse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FWarehouseAdjustment.Designer.vb">
+      <DependentUpon>FWarehouseAdjustment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FWarehouseAdjustment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FWarehouseReturn.Designer.vb">
+      <DependentUpon>FWarehouseReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FWarehouseReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FWarehouseTransfer.Designer.vb">
+      <DependentUpon>FWarehouseTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FWarehouseTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
