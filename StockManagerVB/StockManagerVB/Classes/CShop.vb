@@ -35,4 +35,19 @@ Public Class CShop
         End Using
         Return True
     End Function
+    Public Function SaveShop() As Boolean
+        Return True
+    End Function
+    Public Function UpdateShop() As Boolean
+        Return True
+    End Function
+    Public Function DeleteShop() As Boolean
+        Return True
+    End Function
+    Public Function GetShopName() As String
+        Return ""
+    End Function
+    Public Function GetDataGridViewDBCmdString() As String
+        Return ""
+    End Function
 End Class

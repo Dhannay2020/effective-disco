@@ -33,4 +33,19 @@ Public Class CWarehouse
         End Using
         Return True
     End Function
+    Public Function SaveWarehouse() As Boolean
+        Return True
+    End Function
+    Public Function UpdateWarehouse() As Boolean
+        Return True
+    End Function
+    Public Function DeleteWarehouse() As Boolean
+        Return True
+    End Function
+    Public Function GetWarehouseName() As String
+        Return ""
+    End Function
+    Public Function GetDataGridViewDBCmdString() As String
+        Return ""
+    End Function
 End Class

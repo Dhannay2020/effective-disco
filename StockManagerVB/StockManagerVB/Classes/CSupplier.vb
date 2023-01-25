@@ -32,5 +32,19 @@ Public Class CSupplier
             End With
         End Using
         Return True
+    End Function     Public Function SaveSupplier() As Boolean
+        Return True
+    End Function
+    Public Function UpdateSupplier() As Boolean
+        Return True
+    End Function
+    Public Function DeleteSupplier() As Boolean
+        Return True
+    End Function
+    Public Function GetSupplierName() As String
+        Return ""
+    End Function
+    Public Function GetDataGridViewDBCmdString() As String
+        Return ""
     End Function
 End Class
