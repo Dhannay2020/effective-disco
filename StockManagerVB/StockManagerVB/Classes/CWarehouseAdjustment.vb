@@ -45,4 +45,25 @@ Public Class CWarehouseAdjustment
         End Using
         Return True
     End Function
+    Public Function SaveWarehouseAdjustmentHead() As Integer
+
+        Return Result
+    End Function
+    Public Function SaveWarehouseAdjustmentLine() As Boolean
+
+        Return True
+    End Function
+    Public Function UpdateWarehouseAdjustmentHead() As Boolean
+
+        Return True
+    End Function
+    Public Function UpdateWarehouseAdjustmentLine() As Boolean
+
+        Return True
+    End Function
+    Public Function DeleteWarehouseAdjustment() As Boolean
+
+        Return True
+    End Function
+
 End Class

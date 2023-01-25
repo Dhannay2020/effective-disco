@@ -44,4 +44,24 @@ Public Class CShopReturn
         End Using
         Return True
     End Function
+    Public Function SaveShopReturnHead() As Integer
+
+        Return Result
+    End Function
+    Public Function SaveShopReturnLine() As Boolean
+
+        Return True
+    End Function
+    Public Function UpdateShopReturnHead() As Boolean
+
+        Return True
+    End Function
+    Public Function UpdateShopReturnLine() As Boolean
+
+        Return True
+    End Function
+    Public Function DeleteShopReturn() As Boolean
+
+        Return True
+    End Function
 End Class

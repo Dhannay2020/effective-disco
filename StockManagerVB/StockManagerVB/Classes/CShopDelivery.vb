@@ -47,4 +47,24 @@ Public Class CShopDelivery
         End Using
         Return True
     End Function
+    Public Function SaveShopDeliveryHead() As Integer
+
+        Return Result
+    End Function
+    Public Function SaveShopDeliveryLine() As Boolean
+
+        Return True
+    End Function
+    Public Function UpdateShopDeliveryHead() As Boolean
+
+        Return True
+    End Function
+    Public Function UpdateShopDeliveryLine() As Boolean
+
+        Return True
+    End Function
+    Public Function DeleteShopDelivery() As Boolean
+
+        Return True
+    End Function
 End Class

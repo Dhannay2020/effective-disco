@@ -45,4 +45,24 @@ Public Class CShopAdjustment
         End Using
         Return True
     End Function
+    Public Function SaveShopAdjustmentHead() As Integer
+
+        Return Result
+    End Function
+    Public Function SaveShopAdjustmentLine() As Boolean
+
+        Return True
+    End Function
+    Public Function UpdateShopAdjustmentHead() As Boolean
+
+        Return True
+    End Function
+    Public Function UpdateShopAdjustmentLine() As Boolean
+
+        Return True
+    End Function
+    Public Function DeleteShopAdjustment() As Boolean
+
+        Return True
+    End Function
 End Class

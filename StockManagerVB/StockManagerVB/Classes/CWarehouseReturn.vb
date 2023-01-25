@@ -45,4 +45,25 @@ Public Class CWarehouseReturn
         End Using
         Return True
     End Function
+
+    Public Function SaveWarehouseReturnHead() As Integer
+
+        Return Result
+    End Function
+    Public Function SaveWarehouseReturnLine() As Boolean
+
+        Return True
+    End Function
+    Public Function UpdateWarehouseReturnHead() As Boolean
+
+        Return True
+    End Function
+    Public Function UpdateWarehouseReturnLine() As Boolean
+
+        Return True
+    End Function
+    Public Function DeleteWarehouseReturn() As Boolean
+
+        Return True
+    End Function
 End Class

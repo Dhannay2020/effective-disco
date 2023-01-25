@@ -50,4 +50,24 @@ Public Class CShopTransfer
         End Using
         Return True
     End Function
+    Public Function SaveShopTransferHead() As Integer
+
+        Return Result
+    End Function
+    Public Function SaveShopTransferLine() As Boolean
+
+        Return True
+    End Function
+    Public Function UpdateShopTransferHead() As Boolean
+
+        Return True
+    End Function
+    Public Function UpdateShopTransferLine() As Boolean
+
+        Return True
+    End Function
+    Public Function DeleteShopTransfer() As Boolean
+
+        Return True
+    End Function
 End Class

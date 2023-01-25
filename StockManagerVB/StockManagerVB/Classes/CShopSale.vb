@@ -74,4 +74,24 @@ Public Class CShopSale
         Return True
 
     End Function
+    Public Function SaveShopSaleHead() As Integer
+
+        Return Result
+    End Function
+    Public Function SaveShopSaleLine() As Boolean
+
+        Return True
+    End Function
+    Public Function UpdateShopSaleHead() As Boolean
+
+        Return True
+    End Function
+    Public Function UpdateShopSaleLine() As Boolean
+
+        Return True
+    End Function
+    Public Function DeleteShopSale() As Boolean
+
+        Return True
+    End Function
 End Class
